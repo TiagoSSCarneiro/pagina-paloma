@@ -9,8 +9,7 @@
     .container-info .sobre {
         font-size: 18px;
         width: 450px;
-        line-height: normal;
-         
+        line-height: normal;    
     }
 
     .container-info .foto img {
@@ -39,8 +38,7 @@
 
     .animacao .img2 {
         left: 199px;
-        bottom: 60px;
-       
+        bottom: 60px;  
     }
 
     .animacao .img1 {
@@ -51,10 +49,6 @@
     .animacao .img3 {
        left: 290px;
        bottom: 15px;
-       z-index: -1;
-        
+       z-index: -1;   
     }
-
-
-
 }
