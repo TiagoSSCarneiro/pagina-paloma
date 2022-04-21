@@ -1,5 +1,4 @@
-@media(max-width:576px){
-  
+@media(max-width:768px){
     .container-info {
         padding-top: 50px;  
         flex-direction: column-reverse;
@@ -7,9 +6,39 @@
     }
 
     .container-info .sobre {
-        font-size: 18px;
-        width: 450px;
+        font-size: 20px;
+        width: 550px;
         line-height: normal;    
+    }
+
+    .container-info .sobre h1 {
+        padding-bottom: 15px;
+    }
+    .animacao li {
+        z-index: -1;
+    }
+
+    .animacao .img1 {
+        right: 120px;
+        bottom: 30px;  
+    }
+
+    .animacao .img2 {
+        left: 199px;
+        bottom: 60px;  
+    }
+    
+    .animacao .img3 {
+        left: 320px;
+        bottom: 15px;   
+     }
+}
+@media(max-width:576px){
+  
+    .container-info {
+        padding-top: 50px;  
+        flex-direction: column-reverse;
+        gap: 10px;
     }
 
     .container-info .foto img {
