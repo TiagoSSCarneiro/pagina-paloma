@@ -27,7 +27,7 @@
         left: 199px;
         bottom: 60px;  
     }
-    
+
     .animacao .img3 {
         left: 320px;
         bottom: 15px;   
@@ -82,17 +82,19 @@
     }
 }
 
-@media(max-width:412px) {
+@media(max-width:425px) {
     .container-info .sobre {
-        width: 300px;
+        width: 400px;
         font-size: 15px;
         line-height: normal;    
     }
+    .animacao .img1 {
+        right: 160px;
+        bottom: 20px;  
+    }
     .animacao .img2 {
         left: 99px;
-        bottom: 60px;  
+        bottom: 40px;  
     }
-
-
 }
 
