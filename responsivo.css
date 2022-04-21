@@ -52,3 +52,18 @@
        z-index: -1;   
     }
 }
+
+@media(max-width:412px) {
+    .container-info .sobre {
+        width: 300px;
+        font-size: 15px;
+        line-height: normal;    
+    }
+    .animacao .img2 {
+        left: 99px;
+        bottom: 60px;  
+    }
+
+
+}
+
