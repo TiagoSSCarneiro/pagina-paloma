@@ -66,18 +66,15 @@
     }
 
     .animacao .img2 {
-        left: 199px;
-        bottom: 60px;  
+        left: 199px;  
     }
 
     .animacao .img1 {
-        right: 120px;
-        bottom: 30px;  
+        right: 120px; 
     }
 
     .animacao .img3 {
-       left: 290px;
-       bottom: 15px;
+       left: 290px;  
        z-index: -1;   
     }
 }
@@ -90,11 +87,12 @@
     }
     .animacao .img1 {
         right: 160px;
-        bottom: 20px;  
+          
     }
     .animacao .img2 {
         left: 99px;
-        bottom: 40px;  
+        
+          
     }
 }
 

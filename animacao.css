@@ -1,5 +1,6 @@
 @keyframes animacoes {
     0% {bottom: 1px;}
+    100%{bottom: 10px;}
 }
 
 .animacao {
@@ -22,7 +23,7 @@
 
 .animacao li img {
     width: 100px;   
-}
+} 
 
 .animacao .img2 {
      animation: animacoes 0.8s infinite  alternate ease-in-out; 
@@ -30,10 +31,11 @@
 }
 
  .animacao .img3 {
-     animation: animacoes 0.8s infinite  alternate ease-in-out; 
-    left: 60%;    
+     animation: animacoes 1s infinite  alternate ease-in-out; 
+    left: 60%;   
 }
 
 .animacao .img1 {
     animation: animacoes 0.6s infinite alternate ease-in-out; 
 } 
+
